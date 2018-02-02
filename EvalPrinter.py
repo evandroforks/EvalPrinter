@@ -182,6 +182,7 @@ class Helper:
 
 			myOutput.run_command("append", {"characters": resultStr})
 
+		myOutput.settings().set("scroll_past_end", False)
 		myOutput.set_syntax_file("Packages/JavaScript/JavaScript.tmLanguage")
 
 
