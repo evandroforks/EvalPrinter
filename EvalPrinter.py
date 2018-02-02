@@ -2,7 +2,7 @@ import sublime, sublime_plugin
 import subprocess
 import os
 try:
-	from EvalPrinter.KillableCmd import KillableCmd
+	from .KillableCmd import KillableCmd
 except:
 	from KillableCmd import KillableCmd
 
